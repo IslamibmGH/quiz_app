@@ -29,7 +29,7 @@ class Result extends StatelessWidget {
         children: [
           Container(
             width: double.infinity,
-            margin: EdgeInsets.fromLTRB(10, 150, 10, 0),
+            margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
             child: Text(
               resultPhrase,
               style: GoogleFonts.montserrat(

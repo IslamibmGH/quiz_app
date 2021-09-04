@@ -19,7 +19,7 @@ class Quiz extends StatelessWidget {
       children: [
         Container(
           width: double.infinity,
-          margin: EdgeInsets.fromLTRB(5, 30, 5, 10),
+          margin: EdgeInsets.fromLTRB(5, 0, 5, 0),
           child: Question(
             questions[questionIndex]['questionText'] as String,
           ),
